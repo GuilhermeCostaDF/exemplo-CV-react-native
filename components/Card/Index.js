@@ -8,7 +8,7 @@ export default function Card( {titulo, children } ) {
 
         <View style={styles.card}> 
         <View style={styles.cardHeader}>
-          <Text>{titulo}</Text>
+          <Text style={styles.cardHeaderContent}>{titulo}</Text>
         </View>
         <View style={styles.cardContent}>
             {children}

@@ -55,11 +55,14 @@ export default function App() {
       </View>
 
       <Card titulo="Formação Acadêmica" >
-        <Text style={styles.cardContentText}> React Native </Text>
+        <Text style={styles.cardContentText}>IFB - Instituto Federal de Brasília</Text>
+        <Text style={styles.cardContentTextSec}> &nbsp;&bull; Tecnologia em Sistemas para a Internet</Text>
       </Card>
       <Card titulo="Tecnologias" >
-        <Text style={styles.cardContentText}> Avanade </Text>
-        <Text style={styles.cardContentText}>  </Text>
+        <Text style={styles.cardContentText}>React Native </Text>
+        <Text style={styles.cardContentText}>React </Text>
+        <Text style={styles.cardContentText}>Node </Text>
+        <Text style={styles.cardContentText}>Git </Text>
       </Card>
 
     </SafeAreaView>
@@ -94,7 +97,7 @@ const styles = StyleSheet.create({
   },
 
   funcao: {
-    color: 'black',
+    color: '#67568c',
     fontSize: 16,
     marginBottom: 15,
   },
@@ -102,7 +105,7 @@ const styles = StyleSheet.create({
   redesSociais: {
     flexDirection: 'row',
     justifyContent: 'space-around',
-    width: '80%',
+    width: '40%',
     marginTop: 5,
   },
 
@@ -112,9 +115,16 @@ const styles = StyleSheet.create({
   },
 
   cardContentText: {
-    color: 'pink',
+    color: '#1f1235',
     padding: 10,
     textAlign: 'left'
+  },
+
+  cardContentTextSec: {
+    color: '#67568c',
+    top: -4,
+    left: 20,
+    marginBottom: 10,
   },
 
 });
